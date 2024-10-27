@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import './CartItems.css';
-import { ShopContext } from './ShopContext';
+import '../CartItems/CartItems.css';
+import { ShopContext } from '../ShopContext';
 
-import remove_icon from './assets/cart_cross_icon.png';
+import remove_icon from '../assets/cart_cross_icon.png';
 
 
 const CartItems = () => {
@@ -32,8 +32,6 @@ const CartItems = () => {
                                 <p>${e.new_price}</p>
                                 <button className='cartitems-quantity'>{quantity}</button>
                                 <p>${!isNaN(parseFloat(e.new_price)) && !isNaN(quantity) ? (parseFloat(e.new_price) * quantity).toFixed(2) : '0.00'}</p>
-
-                                
                                 <img 
                                     src={remove_icon} 
                                     onClick={() => removeFromCart(e.id)} 

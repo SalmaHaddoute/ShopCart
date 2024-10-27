@@ -13,14 +13,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color:transparent;
     padding: 15px 20px;
+    color: aquamarine;
 }
 
 .logo a {
-    color: #fff;
+    color: #000000;
     font-size: 24px;
     text-decoration: none;
+    font-weight: 900;
+    font-style: oblique;
 }
 
 .nav-links {
@@ -33,13 +36,13 @@ body {
 }
 
 .nav-links a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #f0a500;
+    color: #28bce1;
 }
 
 .cart a {

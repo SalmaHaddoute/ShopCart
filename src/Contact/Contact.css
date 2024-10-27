@@ -1,0 +1,90 @@
+.contact-container {
+    max-width: 500px; /* Augmentez la largeur maximale du conteneur */
+    margin: 100px auto; /* Ajoutez une marge supérieure pour centrer le div verticalement */
+    padding: 30px; /* Augmentez le padding pour agrandir le div */
+    background-color: #f0f0f0; /* Fond gris clair */
+    color: #333; /* Texte gris foncé */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Ombre douce */
+    transition: transform 0.3s; /* Transition pour effet d'échelle au survol */
+}
+
+.contact-container:hover {
+    transform: translateY(-5px); /* Effet de léger déplacement au survol */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Titre gris foncé */
+    font-size: 1.8rem; /* Taille de police plus grande pour le titre */
+    margin-bottom: 20px; /* Marge inférieure pour espacer le titre */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555; /* Couleur de l'étiquette gris moyen */
+}
+
+input {
+    width: 100%;
+    padding: 12px; /* Plus de padding pour une meilleure ergonomie */
+    border: 1px solid #ccc; /* Bordure gris clair */
+    border-radius: 5px;
+    background-color: #ffffff; /* Fond des champs de saisie blanc */
+    color: #333; /* Texte des champs de saisie gris foncé */
+    font-size: 1rem; /* Taille de police normale */
+}
+
+input::placeholder {
+    color: #aaa; /* Couleur des placeholders */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #000000; /* Fond bleu pour le bouton */
+    color: white; /* Texte du bouton blanc */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem; /* Taille de police normale */
+    transition: background-color 0.3s; /* Transition pour un effet au survol */
+}
+
+button:hover {
+    background-color: #303132; /* Couleur bleue plus foncée au survol */
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color: #000000; /* Lien de réinitialisation du mot de passe en bleu */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+.oauth-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.oauth-container button {
+    margin: 5px;
+    background-color: #f0f0f0; /* Fond gris clair pour les boutons OAuth */
+    color: #1ac6cc; /* Texte bleu pour les boutons OAuth */
+    border: 1px solid #1ac6cc; /* Bordure bleue pour les boutons OAuth */
+    transition: background-color 0.3s; /* Transition pour un effet au survol */
+}
+
+.oauth-container button:hover {
+    background-color: #1ac6cc; /* Fond bleu au survol pour les boutons OAuth */
+    color: white; /* Texte en blanc au survol */
+}
+

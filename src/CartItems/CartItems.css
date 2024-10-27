@@ -1,49 +1,55 @@
-.cartitems{
+.cartitems {
     margin: 100px 170px;
 }
-.cartitems hr{
+
+.cartitems hr {
     height: 3px;
-    background: #e2e2e2;
+    background: #cccccc; /* Gris clair */
     border: 0;
 }
 
-.cartitems-format-main{
+.cartitems-format-main {
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
     gap: 75px;
     padding: 20px 0px;
-    color: #454545;
+    color: #555555; /* Gris foncé pour le texte */
     font-size: 18px;
     font-weight: 600;
 }
-.cartitems-format{
+
+.cartitems-format {
     font-size: 17px;
     font-weight: 500;
 }
-.carticon-product-icon{
+
+.carticon-product-icon {
     height: 62px;
 }
-.carticon-remove-icon{
+
+.carticon-remove-icon {
     width: 15px;
     margin: 0px 40px;
     cursor: pointer;
 }
-.cartitems-quantity{
+
+.cartitems-quantity {
     height: 50px;
     width: 64px;
-    border: 2px solid #ebebeb;
+    border: 2px solid #cccccc; /* Bordure gris clair */
     background: #fff;
 }
-.cartitems-down{
+
+.cartitems-down {
     display: flex;
     margin-top: 100px 0px;
-
 }
+
 .cartitems-total {
     flex: 1;
     display: flex;
     flex-direction: column;
-    width: 400px; /* Par exemple, tu peux ajuster à 400px ou plus */
+    width: 400px;
     margin-right: 50px;
     gap: 40px;
 }
@@ -54,37 +60,38 @@
     padding: 15px 0px;
 }
 
-
-.cartitems-total button{
+.cartitems-total button {
     width: 262px;
     height: 58px;
     outline: none;
     border: none;
-    background: #ff5a5a;
+    background: #777777; /* Gris moyen pour le bouton */
     color: #fff;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
 }
 
-.cartitems-promocode{
+.cartitems-promocode {
     flex: 1;
     font-size: 16px;
     font-weight: 400;
     width: 100px;
+}
 
+.cartitems-promocode p {
+    color: #555555; /* Gris foncé pour texte */
 }
-.cartitems-promocode p{
-    color: #555;
-}
-.cartitems-promobox{
+
+.cartitems-promobox {
     width: 504px;
     margin-top: 15px;
     padding-left: 20px;
     height: 58px;
-    background: #eaeaea;
+    background: #f0f0f0; /* Gris très clair pour le fond */
 }
-.cartitems-promobox input{
+
+.cartitems-promobox input {
     border: none;
     outline: none;
     background: transparent;
@@ -92,11 +99,13 @@
     width: 330px;
     height: 50px;
 }
-.cartitems-promobox button{
+
+.cartitems-promobox button {
     width: 170px;
     height: 58px;
     font-size: 16px;
-    background: black;
-    color:white ;
+    background: #555555; /* Gris foncé pour contraste */
+    color: white;
     cursor: pointer;
 }
+

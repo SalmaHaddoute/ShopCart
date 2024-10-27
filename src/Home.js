@@ -1,12 +1,13 @@
 import React from 'react'
 import Nav from './Nav/Nav'
-import Hello from './Hello'
+import Head from './HOME/Head'
+
 
 export default function Home() {
     return (
         <div>
             <Nav />
-            <Hello />
+            <Head />            
         </div>
         
 

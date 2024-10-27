@@ -1,5 +1,5 @@
 import React from 'react'
-import CartItems from './CartItems'
+import CartItems from './CartItems/CartItems'
 import Nav from './Nav/Nav'
 
 export default function Cart() {
